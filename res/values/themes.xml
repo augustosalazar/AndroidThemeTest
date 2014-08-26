@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="UninorteTheme" parent="@style/Theme.AppCompat.Light">
+        <item name="android:textColorPrimary">@color/uninorte_color</item>
+        <item name="android:textColor">#FF0000</item>
+        <item name="android:background">@drawable/uninorte_background</item>
+        <item name="android:windowNoTitle">true</item>
+        
+    </style>
+
+    <style name="CodeFontMainTitle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="UninorteButton"> <!-- Add this item. -->
+        <item name="android:background">@drawable/uninorte_selector</item>
+        <item name="android:textColor">#FF0000</item>
+    </style>
+
+</resources>
